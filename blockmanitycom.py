@@ -3,8 +3,8 @@ import requests
 import pymongo
 import time
 
+# MONGODB connection
 client = pymongo.MongoClient("mongodb://patrick:abc123456@ds119734.mlab.com:19734/patrickpan")
-
 db = client["patrickpan"]
 blockmanitycom = db.blockmanitycom
 
